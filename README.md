@@ -2,7 +2,7 @@
 HashGuid Generator
 
 Perhaps unnecessarily lengthened, improved version of Guid.
-Increased resistance for collusion when used in parallel distributed environments.
+Increased resistance for collision when used in parallel distributed environments.
 
 # Algorithm
 
