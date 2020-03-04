@@ -27,13 +27,13 @@ var machineName = Environment.MachineName;
 
 *  Cpu ticks elapsed since preperation of the above information
 ```
-#### Different cpu's or virtual machines under load will perform differently
+Different cpu's or virtual machines under load will perform differently
 sw.ElapsedTicks
 ```
 
 *  Sha256 hash of the above information combined
 ```
-#### Combine all of the information above and hash it to a fixed length string
+Combine all of the information above and hash it to a fixed length string
 var hash=ComputeSha256Hash(proccessId+machineName+randomNumber+sw.ElapsedTicks);
 ```
 
