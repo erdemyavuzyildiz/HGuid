@@ -1,0 +1,2 @@
+# HGuid
+HashGuid Generator
