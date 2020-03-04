@@ -3,13 +3,17 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Shared_16092018_0434_53
+namespace HashGuid
 {
     /// <summary>
-    /// HGuidGenerator
+    /// HashGuid Generator
     /// </summary>
     public static class HGuidGenerator
     {
+        /// <summary>
+        /// Generates a new HashGuid
+        /// </summary>
+        /// <returns></returns>
         public static string NewHGuid()
         {
             var sw =Stopwatch.StartNew();
